@@ -1,4 +1,32 @@
-p {
 
-	font-family: 'Open Sans', sans-serif;
+
+//Esto es un comentario en sass
+
+body {
+	width: $ancho_pagina;
+	vertical-align: top;
+	font-family: $tipo_fuente;
+	font-size: 1em;
+	margin: auto;
+	background-color: $fondo_negro;
+	color: $color_texto;
+
+ 
+ 
+html, body, #wrapper {height: 100%;}
+ 
+body > #wrapper { height: auto; min-height: 100%; }
+ 
+#content { overflow: auto; padding-bottom: 150px; } 
+
+h1 {
+  font-weight: normal;
+  padding-top: 20px;
+  text-align: center;
+  background: #FFF;
+}
+ 
+h2 {
+  padding-top: 20px;
+  text-align: center;
 }
